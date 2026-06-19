@@ -5,6 +5,8 @@
  * Set env on Vercel: META_PROXY_SECRET = long random string
  * Set on Contabo .env: META_GRAPH_PROXY_URL + META_GRAPH_PROXY_SECRET (same value)
  */
+
+//ss
 const META_ORIGIN = "https://graph.facebook.com";
 
 export default async function handler(req, res) {
